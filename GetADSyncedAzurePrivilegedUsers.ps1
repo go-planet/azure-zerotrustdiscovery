@@ -1,4 +1,6 @@
-﻿# Import the Azure AD module
+﻿#Use this script to find AD synced users within the privileged roles in Azure AD. The script returns a CSV file with the AD Synced users and what roles they have been access.
+ 
+ # Import the Azure AD module
 Import-Module AzureAD
 
 # Connect to Azure AD
